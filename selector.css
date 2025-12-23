@@ -1,0 +1,36 @@
+ /* 1️⃣ Element selector */
+    p {
+      color: blue;
+    }
+
+    /* 2️⃣ Class selector */
+    .box {
+      background-color: lightgray;
+      padding: 15px;
+      margin: 10px 0;
+    }
+    .layout {
+        background: rgb(0,0,0);
+        color: white;
+        padding: 15px;
+        display: flex; flex-direction: column;
+        gap: 5px;
+    }
+    .layout input{background: rgb(255,0,255);}
+
+
+    /* 3️⃣ ID selector */
+    #header {
+      background-color: black;
+      color: white;
+      padding: 10px;
+      text-align: center;
+      font-size: 20px;
+    
+    }
+
+    /* 4️⃣ Descendant selector */
+    section p {
+      color: green;
+      font-weight: bold;
+    }

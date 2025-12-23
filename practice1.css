@@ -1,0 +1,16 @@
+/* Universal */
+*{
+    margin: 10px 10px 10px 10px;
+}
+h1{
+    display: flex;
+    background: red;
+    flex-direction: row;
+    gap: 10px;
+}
+.class {
+    text-decoration: underline;
+}
+#id{
+    color: rgb(255,0,0);
+}
