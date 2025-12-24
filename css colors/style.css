@@ -1,0 +1,37 @@
+h1 {
+    /* Using color names */
+    /* color: red; */
+
+    /* Red, Green and Blue (rga) When we using rgb, 255,255 and 255 are maximum. 0, 0, and 0 is minimum */
+ /* First 255 reprensent Red, middle 255 represents Green, and the last one represent Blue, and all zeroes respresent Black */
+ 
+ /* color: rgb(0, 0, 255); this is example of Blue color */
+
+ /* Hexadecimal. The maximum "ffffff".  */
+ /* The Firt two f represent "Red". The middle two f represent "Green" and The last two is "Blue" */
+ 
+ /* color: #ff0000; this the example of Red */
+
+}
+#lowblue{
+height: 200px;
+width: 200px;
+display: inline-block;
+background-color: rgba(17, 51,204, 0.3);
+}
+#middleblue{
+height: 200px;
+width: 200px;
+display: inline-block;
+background-color: rgba(17, 51,204, 0.6);
+}
+#highblue{
+height: 200px;
+width: 200px;
+display: inline-block;
+background-color: rgba(17, 51,204, 0.9);
+}
+.container {
+    display: flex;
+    gap: 10px;
+}
